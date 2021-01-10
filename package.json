@@ -1,0 +1,30 @@
+{
+  "name": "@voliware/node-mongo",
+  "version": "1.0.0",
+  "description": "A very simple database and collection object for MongoDB on Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voliware/node-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "database",
+    "collection"
+  ],
+  "author": "Voliware",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Voliware/node-mongo/issues"
+  },
+  "homepage": "https://github.com/Voliware/node-mongo#readme",
+  "dependencies": {
+    "@voliware/logger": "^1.5.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongodb": "^3.6.3"
+  }
+}
